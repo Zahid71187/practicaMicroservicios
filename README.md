@@ -15,7 +15,7 @@ Se debe contar con la instalación de:
 - Mongodb
 
 ### Rutas
--Registrar usuario:
+- Registrar usuario:
 
 Post:
 
@@ -32,21 +32,21 @@ Son recibidos en formato json en el body de la petición:
 - telefono: String 
 - password: String 
 - tipo: String
-#### Ejemplo de ejecución
+### Ejemplo de ejecución
 
--Registro correcto
+- Registro correcto
 
 ![Alt text](img/1.png?raw=true "Title")
 
--Registro ya existente
+- Registro ya existente
 
 ![Alt text](img/2.png?raw=true "Title")
 
--Faltan datos
+- Faltan datos
 
 ![Alt text](img/3.png?raw=true "Title")
 
--Login:
+- Login:
 
 Post:
 
@@ -61,15 +61,15 @@ Son recibidos en formato json en el body de la petición:
 
 #### Ejemplo de ejecución
 
--login correcto
+- login correcto
 
 ![Alt text](img/4.png?raw=true "Title")
 
--Login incorrecto
+- Login incorrecto
 
 ![Alt text](img/5.png?raw=true "Title")
 
--Faltan datos
+- Faltan datos
 
 ![Alt text](img/6.png?raw=true "Title")
 ## Docker
@@ -78,11 +78,11 @@ Pero la intención es no instalar ninguno de ellos y que funcione gracias a Dock
 
 Para ello creamos 2 contenedores:
 - Un contenedor Node que contiene el código de nuestra app
-- Un contenedor de MongoDB asociado a un volumen
+- Un contenedor de MongoDB asociado 
 
 ### Cómo iniciar el proyecto
 
-Todas las configuraciones necesarias se encuentras en los archivos dockerfile y docker-compose.yaml
+Todas las configuraciones necesarias se encuentras en los archivos dockerfile y docker-compose.yaml.
 Utilizando docker-compose podemos ejecutar de manera sencilla las siguientes actividades:
 
 - Crear una imagen basada en Node con el código de la app.
@@ -103,7 +103,7 @@ Puedes hacer todo lo anterior ejecutando un solo comando:
 - Puedes acceder a la aplicación desde localhost:8090 en tu navegador.
 
 ### Rutas
--Registrar usuario:
+- Registrar usuario:
 
 Post:
 
@@ -123,19 +123,19 @@ Son recibidos en formato json en el body de la petición:
 
 #### Ejemplo de ejecución
 
--Registro correcto
+- Registro correcto
 
 ![Alt text](img/7.png?raw=true "Title")
 
--Registro ya existente
+- Registro ya existente
 
 ![Alt text](img/8.png?raw=true "Title")
 
--Faltan datos
+- Faltan datos
 
 ![Alt text](img/9.png?raw=true "Title")
 
--Login:
+- Login:
 
 Post:
 
@@ -150,14 +150,14 @@ Son recibidos en formato json en el body de la petición:
 
 #### Ejemplo de ejecución en docker
 
--login correcto
+- login correcto
 
 ![Alt text](img/10.png?raw=true "Title")
 
--Login incorrecto
+- Login incorrecto
 
 ![Alt text](img/11.png?raw=true "Title")
 
--Faltan datos
+- Faltan datos
 
 ![Alt text](img/12.png?raw=true "Title")
