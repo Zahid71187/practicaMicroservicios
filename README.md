@@ -11,15 +11,40 @@ Incluye:
 ## Manera local
 Se debe contar con la instalación de:
 
--Nodejs 
--Mongodb
+-Nodejs. 
+-Mongodb.
 
-### rutas
+### Rutas
 -Registrar usuario:
 
-Get:
+Post:
 
     http://localhost:300/auth/register
+
+Parámetros:
+
+Son recibidos en formato json en el body de la petición:
+
+- nombre: String 
+- apellidoPaterno: String 
+- apellidoMaterno: String 
+- correo: String
+- telefono: String 
+- password: String 
+- tipo: String
+
+-Login:
+
+Post:
+
+    http://localhost:3000/auth/login
+
+Parámetros:
+
+Son recibidos en formato json en el body de la petición:
+
+- correo: String
+- password: String 
 
 ## Componentes
 El proyecto podría funcionar si instalamos Node, MongoDB y Mongo Express en nuestro servidor local.
