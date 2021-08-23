@@ -33,6 +33,8 @@ Son recibidos en formato json en el body de la petición:
 - password: String 
 - tipo: String
 
+![Alt text](img/1.png?raw=true "Title")
+
 -Login:
 
 Post:
