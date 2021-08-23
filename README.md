@@ -96,7 +96,8 @@ Utilizando docker-compose podemos ejecutar de manera sencilla las siguientes act
 Puedes hacer todo lo anterior ejecutando un solo comando:
 
     docker-compose up
-    
+
+![Alt text](img/consola.png?raw=true "Title")
 ## Una vez iniciado el proyecto
 
 - Puedes acceder a la aplicación desde localhost:8090 en tu navegador.
@@ -120,6 +121,20 @@ Son recibidos en formato json en el body de la petición:
 - password: String 
 - tipo: String
 
+#### Ejemplo de ejecución
+
+-Registro correcto
+
+![Alt text](img/7.png?raw=true "Title")
+
+-Registro ya existente
+
+![Alt text](img/8.png?raw=true "Title")
+
+-Faltan datos
+
+![Alt text](img/9.png?raw=true "Title")
+
 -Login:
 
 Post:
@@ -132,3 +147,17 @@ Son recibidos en formato json en el body de la petición:
 
 - correo: String
 - password: String
+
+#### Ejemplo de ejecución en docker
+
+-login correcto
+
+![Alt text](img/10.png?raw=true "Title")
+
+-Login incorrecto
+
+![Alt text](img/11.png?raw=true "Title")
+
+-Faltan datos
+
+![Alt text](img/12.png?raw=true "Title")
