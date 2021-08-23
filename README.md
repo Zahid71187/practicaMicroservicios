@@ -32,8 +32,19 @@ Son recibidos en formato json en el body de la petición:
 - telefono: String 
 - password: String 
 - tipo: String
+#### Ejemplo de ejecución
+
+-Registro correcto
 
 ![Alt text](img/1.png?raw=true "Title")
+
+-Registro ya existente
+
+![Alt text](img/2.png?raw=true "Title")
+
+-Faltan datos
+
+![Alt text](img/3.png?raw=true "Title")
 
 -Login:
 
@@ -48,6 +59,19 @@ Son recibidos en formato json en el body de la petición:
 - correo: String
 - password: String 
 
+#### Ejemplo de ejecución
+
+-login correcto
+
+![Alt text](img/4.png?raw=true "Title")
+
+-Login incorrecto
+
+![Alt text](img/5.png?raw=true "Title")
+
+-Faltan datos
+
+![Alt text](img/6.png?raw=true "Title")
 ## Docker
 El proyecto podría funcionar si instalamos Node y MongoDB  en nuestro servidor local.
 Pero la intención es no instalar ninguno de ellos y que funcione gracias a Docker.
