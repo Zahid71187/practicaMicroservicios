@@ -12,11 +12,9 @@ Se debe contar con la instalación de:
 -Mongodb
 
 ### rutas
--Registrar usuario
+-Registrar usuario:
 Get:
     http://localhost:300/auth/register
-
-
 
 ## Componentes
 El proyecto podría funcionar si instalamos Node, MongoDB y Mongo Express en nuestro servidor local.
