@@ -1,12 +1,24 @@
-## App Node de ejemplo usando Docker
+# App Node Practica 2 Microservicios
 
-Esta app muestra y permite editar un perfil de usuario.
+Esta app registra a usuarios y da ingreso a un usuario a través de un  token generado.
 Incluye:
-- Un archivo index.html con js y css inline
-- Un archivo server.js como backend nodejs usando express
-- Una conexión mongodb para guardar los datos
+- app nodejs
+- archivo dockerfile para correr app node
+- archivo docker-compose para correr app node y mongodb
 
-## 3 Componentes
+## Manera local
+Se debe contar con la instalación de:
+-Nodejs 
+-Mongodb
+
+### rutas
+-Registrar usuario
+Get:
+    http://localhost:300/auth/register
+
+
+
+## Componentes
 El proyecto podría funcionar si instalamos Node, MongoDB y Mongo Express en nuestro servidor local.
 Pero la intención es no instalar ninguno de ellos y que funcione gracias a Docker.
 
@@ -15,7 +27,7 @@ Para ello creamos 3 contenedores:
 - Un contenedor de MongoDB asociado a un volumen
 - Y uno de Mongo Express para consultar nuestra BD a través de una UI
 
-## Cómo iniciar el proyecto
+### Cómo iniciar el proyecto
 
 ### Usando comandos Docker
 
