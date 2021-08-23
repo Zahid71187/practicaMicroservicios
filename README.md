@@ -11,8 +11,8 @@ Incluye:
 ## Manera local
 Se debe contar con la instalación de:
 
--Nodejs. 
--Mongodb.
+- Nodejs
+- Mongodb
 
 ### Rutas
 -Registrar usuario:
