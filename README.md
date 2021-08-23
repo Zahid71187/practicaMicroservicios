@@ -1,19 +1,24 @@
 # App Node Practica 2 Microservicios
 
 Esta app registra a usuarios y da ingreso a un usuario a través de un  token generado.
+
 Incluye:
+
 - app nodejs
 - archivo dockerfile para correr app node
 - archivo docker-compose para correr app node y mongodb
 
 ## Manera local
 Se debe contar con la instalación de:
+
 -Nodejs 
 -Mongodb
 
 ### rutas
 -Registrar usuario:
+
 Get:
+
     http://localhost:300/auth/register
 
 ## Componentes
